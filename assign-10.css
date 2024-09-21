@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+    .responsive-image {
+      max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-image {
+      max-width: 300px;
+    }
+}
