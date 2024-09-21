@@ -1,0 +1,38 @@
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#header {
+    color: green;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subheading {
+    color: darkred;
+    margin-top: 20px;
+}
+
+[title] {
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: darkorange;
+}
