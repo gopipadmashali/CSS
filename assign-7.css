@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: auto 200px auto; 
+    grid-gap: 10px; 
+    height: 100vh;
+    padding: 10px;
+  }
+  .item1 {
+    grid-column: 1 / 4; 
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .item2 {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .item3 {
+    background-color: #FF5722;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .item4 {
+    background-color: #FFC107;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    grid-column: 2 / 4; 
+  }
+  .item5 {
+    background-color: #9C27B0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
