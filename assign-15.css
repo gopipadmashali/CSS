@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.box{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+h1{
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.box div {
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: transform 0.5s ease;
+}
+
+.box div:hover {
+    cursor: pointer;
+}
+
+.translate-box:hover {
+    transform: translate(100px, 50px);
+}
+
+.rotate-box:hover {
+    transform: rotate(45deg);
+}
+
+.scale-box:hover {
+    transform: scale(1.5);
+}
+
+.skew-box:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.combined-box:hover {
+    transform: translate(50px, 50px) rotate(30deg) scale(1.2) skew(10deg);
+}
