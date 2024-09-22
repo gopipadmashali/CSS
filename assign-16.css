@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+header{
+    margin: 0;
+    text-align: center;
+}
+section{
+    height: 60vh;
+    margin: 0;
+}
+/* Pseudo-Classes: hover, active, focus */
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn:active {
+    background-color: #1c638a;
+}
+
+input:focus {
+    border: 2px solid #2ecc71;
+    outline: none;
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.menu li:nth-child(odd) {
+    background-color: #c0392b;
+}
+
+footer{
+    text-align: center;
+}
+/* Pseudo-Elements: before, after */
+footer .heart::before {
+    content: "Made with ";
+}
+
+footer .heart::after {
+    content: " passion!";
+}
+
