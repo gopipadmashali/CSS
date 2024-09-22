@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.static-box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.relative-box {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-box {
+    background-color: #FF5722;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top:150px;
+    left: 50px;
+}
+
+.fixed-box {
+    background-color: #FFC107;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky-box {
+    background-color: #9C27B0;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    top: 100px;
+    /* padding-top: 100px; */
+    height: 1000px;
+}
